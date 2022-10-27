@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+     <section>
+     </h1>Registration Page</h1>
+         <br>
+       <hr>
+      <!-- forms -->
+      <forms action="process.php" method="POST">
+        <div>
+            <label>First Name</label>
+            <input type="text" name="first-name"placeholder="enter first name">
+        </div>
+        <br>
+        <div>
+            <label>Last Name</label>
+            <input type="text" name="lastName">
+        </div>  
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email">
+        </div>
+        <br>
+      
+          <div>
+            <label>Phone Number</label>
+            <input type="Phone Number" name="Phone Number">
+        </div>
+         <br>
+        <br>
+        <div>
+            <label> Gender</label>
+          <select name= "gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">others</option>
+          </select>
+       </div>
+       <br>
+       <div>
+           <label>Date of birth:</label>
+           <input type="number" name = "age" value="18">
+        </div>
+        <br>
+         <div>
+           <label>Favorite color </label>
+           <input type="color" name = "color" value="Red">
+        </div>
+        <br>
+     </section>
+
+  <main id="main-holder">
+    <h1 id="login-header">Login</h1>
+    
+    <div>
+      <p id="login-error-msg">Invalid Email <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+    
+    <form id="login-form">
+      <input type="text" name="Email"  class="login-form-field" placeholder="Email">
+      <input type="password" name="password" placeholder="Password">
+      <input type="submit" value="Login" id="login-form-submit">
+    </form>
+  
+  </main>
+  
+</body>
+
+</html>
